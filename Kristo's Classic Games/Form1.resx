@@ -126,9 +126,7 @@ can play many free classic games on your computer.
 
 This program will save some of your data, including your
 Windows username. We do this in order to see how many
-users we get. No other data is saved.
-
-GitHub link (open source):</value>
+users we get. No other data is saved.</value>
   </data>
   <metadata name="fadeIn.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

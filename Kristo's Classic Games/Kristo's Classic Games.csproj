@@ -83,5 +83,17 @@
   <ItemGroup>
     <None Include="Resources\IMG_1207.JPG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_39140.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

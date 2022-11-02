@@ -60,6 +60,8 @@ namespace Kristo_s_Classic_Games
             MakeRoundedCorners(panel2, 20);
             MakeRoundedCorners(panel3, 20);
             MakeRoundedCorners(panel4, 20);
+            MakeRoundedCorners(panel5, 20);
+            MakeRoundedCorners(panel6, 20);
             MakeRoundedCorners(pictureBox1, 20);
             fadeIn.Start();
         }
@@ -107,6 +109,36 @@ namespace Kristo_s_Classic_Games
             fadeIn.Stop();
             fadeinorout = true;
             fadeIn.Start();
+        }
+
+        private void panel5_MouseEnter(object sender, EventArgs e)
+        {
+            panel5.BackColor = Color.FromArgb(75, 75, 75);
+        }
+
+        private void panel5_MouseLeave(object sender, EventArgs e)
+        {
+            panel5.BackColor = Color.FromArgb(55, 55, 55);
+        }
+
+        private void panel5_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/tanakimees/Kristo-s-Classic-Games");
+        }
+
+        private void panel6_MouseEnter(object sender, EventArgs e)
+        {
+            panel6.BackColor = Color.FromArgb(75, 75, 75);
+        }
+
+        private void panel6_MouseLeave(object sender, EventArgs e)
+        {
+            panel6.BackColor = Color.FromArgb(55, 55, 55);
+        }
+
+        private void panel6_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.linkedin.com/in/kristo-t%C3%A4nak-2934b5227/");
         }
     }
 }
